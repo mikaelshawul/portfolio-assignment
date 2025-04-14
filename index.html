@@ -6,25 +6,57 @@
     <title>My Resume</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-theme="light">
     <!-- Header Section -->
     <header>
-        <h1>Your Name</h1>
-        <h2>Software Engineer</h2>
-        <p>Your Location</p>
+        <h1>Mikael Shawul</h1>
+        <h2>Human-Centered Design and Development Student</h2>
+        <p>Philadelphia, PA | mikaelshawul@gmail.com | (267) 439-8787</p>
     </header>
+
+    <!-- Add a button for toggling light/dark mode -->
+    <button id="theme-toggle" style="position: fixed; top: 1rem; right: 1rem;">🌙</button>
+
 
     <!-- About Me Section -->
     <section class="about-section">
-        <h2 class="section-title">Hey, I'm [Your Name]</h2>
+        <h2 class="section-title">Hey, I'm Mikael</h2>
         <div class="about-content">
-            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic">
+            <img src="https://via.placeholder.com/150/FFFFFF/CCCCCC?text=Profile" class="profile-pic">
             <div class="about-text">
-                <p>I'm a software engineer with experience in [your skills].</p>
-                <p>Previously, I worked on [your past experience].</p>
-                <p>In my free time, I like to [your hobbies].</p>
+                <p>I’m currently pursuing a Bachelor of Science in Human-Centered Design and Development with a minor in Security and Risk Analysis at Penn State University. I enjoy creating user-friendly digital experiences and exploring new technologies. When I’m not coding, I love PC building, gaming, staying active, and diving into emerging tech trends.</p>
             </div>
         </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript, Java, Python, SQL</li>
+            <li>Figma, Microsoft 365</li>
+            <li>Teamwork, Problem Solving</li>
+            <li>Languages: English, Amharic</li>
+        </ul>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience-section">
+        <h2 class="section-title">Experience & Projects</h2>
+        <ul>
+            <li>
+                <strong>Storefront Website (Team Project)</strong> – University Park, PA (Feb. 2025 – Present)<br>
+                Built a full-stack e-commerce platform using HTML/CSS, Bootstrap, and JavaScript. Implemented jQuery and AngularJS, developed RESTful APIs with Node.js, and integrated MongoDB.
+            </li>
+            <li>
+                <strong>Bank Teller, Univest Financial</strong> – Philadelphia, PA (May 2024 – Aug. 2024)<br>
+                Handled financial transactions and delivered excellent customer service in a fast-paced banking environment.
+            </li>
+            <li>
+                <strong>Team Member, Chick-fil-A</strong> – Ridley Park, PA (Oct. 2022 – Feb. 2023)<br>
+                Ensured high-quality food prep and optimized customer service operations.
+            </li>
+        </ul>
     </section>
 
     <!-- Connect with Me Section -->
@@ -38,10 +70,6 @@
             <div class="link-item">
                 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="circle-image" id="github">
                 <p>GitHub</p>
-            </div>
-            <div class="link-item">
-                <img src="https://cdn-icons-png.flaticon.com/512/3095/3095181.png" alt="Portfolio" class="circle-image" id="portfolio">
-                <p>Portfolio</p>
             </div>
         </div>
     </section>
